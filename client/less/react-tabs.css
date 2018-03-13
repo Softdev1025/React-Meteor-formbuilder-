@@ -1,0 +1,133 @@
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+
+.vertical-react-tabs__tab-list {
+  border-right: 1px solid #aaa;
+  margin:0px 0 10px;
+  padding: 20px 0px 0px 20px;;
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+}
+
+.vertical-react-tabs__tab {
+  border: 1px solid transparent;
+  border-right: none;
+  right: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.vertical-react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: black;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 0px;
+}
+
+.vertical-react-tabs__tab-panel {
+  display: none;
+  margin-left: 220px;
+}
+
+.vertical-react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.vertical-react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.vertical-react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.vertical-react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tab-pager {
+  position: fixed;
+  height: 100%;
+  display: flex;
+  z-index: 1;
+}
+
+.react-tab-pager span {
+  font-size: 60px;
+  font-weight: bolder;
+  top: 50%;
+  margin-top: -50%;
+}
+.react-tab-pager a{
+  color: #ababab;
+}
+.react-tab-pager a:hover {
+  color: #5c5c5c;
+}

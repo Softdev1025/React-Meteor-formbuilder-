@@ -1,0 +1,17 @@
+{
+    "APPTYPE": "PUBLIC",
+    "partner": {
+        "authorizeCallbackUrl": "http://localhost:3000/",
+        "consumerKey": "CC6TVWELC36ZFRSDRCKAUU0LTAPCMN",
+        "privateKeyPath": "path/privatekey.pem",
+        "userAgent": "PARTNER Application",
+        "redirectOnError": true
+    },
+    "public": {
+        "authorizeCallbackUrl": "http://localhost:3000/",
+        "consumerKey": "CC6TVWELC36ZFRSDRCKAUU0LTAPCMN",
+        "consumerSecret": "TTXD3HNKALFXI1KTZ3YMX244YNXFNY",
+        "userAgent": "PUBLIC Application",
+        "redirectOnError": true
+    }
+}
